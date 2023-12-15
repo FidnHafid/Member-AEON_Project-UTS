@@ -1,5 +1,5 @@
 Anggota kelompok : Hafid Nurmajid
-                   Hafiyan sayida
+                   Hafiyan sayidan
                    Muhammad irfan
 Nama website     : Member Kartu Aeon
 
