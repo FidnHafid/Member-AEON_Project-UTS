@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project_Uts</title>
+    <style>
+
+    * {
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 15px;
+        font-size: 12px;
+    }
+     html {
+        margin: 0;
+        padding: 0;
+        scroll-behavior: smooth;
+     }
+    
+     body {
+       margin: 0px;
+       padding: 0px;
+       
+     }
+     
+     header {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    z-index: 2;
+}
+
+header video {
+    position: absolute;
+    top: 50%; /* Menyusun video tepat di tengah tinggi header */
+    left: 0;
+    object-fit: cover;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    transform: translateY(-50%); /* Menggeser video setengah tinggi ke atas */
+}
+
+header .overlay {
+   position: absolute;
+   top: 0;
+   left: 0;
+   height: 100%;
+   width: 100%;
+   background-color: #000;
+   opacity: 50%;
+   z-index: -1;
+ }
+
+nav {
+    z-index: 100;
+    color: #fff;
+    text-align: center;
+    position: fixed;
+    border-bottom: 1px solid #b1b1b1;
+    line-height: 60px;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+nav .menu {
+    float: right;
+    height: 50px;
+    max-width: 600px;
+}
+
+nav .menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 7px;
+    display: flex;
+    justify-content: flex-end; /* Menyusun tombol ke ujung kanan */
+}
+
+nav .menu ul li {
+    list-style-type: none;
+    line-height: 10px;
+    margin-right: 10px; /* Menambahkan margin di antara tombol */
+}
+
+nav ul li a {
+    color: beige;
+    text-align: center;
+    padding: 10px 16px; /* Penyesuaian padding */
+    text-decoration: none;
+    display: block;
+    transition: background-color 0.3s ease;
+    border-radius: 5px; /* Menambahkan border radius */
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    background-color: #e91e63;
+}
+
+
+    </style>
+
+</head>
+<body>
+    <nav>
+    <div class="menu">
+    <a href="#" class="tombol-menu">
+        <span class="garis"></span>
+        <span class="garis"></span>
+        <span class="garis"></span>
+    </a>
+    <ul>
+        <li><a href="controllers/login.php">Sign In</a></li>
+        <li><a href="controllers/register.php">Sign Up</a></li>
+        <li><a href="controllers/logout.php">Log out</a></li>
+        <li><a href="controllers/user_dashboard.php">User</a></li>
+        <li><a href="controllers/create_profile.php">Create</a></li>
+        <li><a href="controllers/add_user.php">Add</a></li>
+        <li><a href="controllers/admin_dashboard.php">Admin</a></li>
+    </ul>
+</nav>
+</div>
+    <div class="vidio">
+        <header id="home">
+            <div class="overlay"></div>
+            <video autoplay muted loop >
+            <source src="www.ytmp4.app---Hologram City.mp4" type="video/mp4" />
+        </video>
+         </header>
+        </div>
+
+</body>
+</html>
