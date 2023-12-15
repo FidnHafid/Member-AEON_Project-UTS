@@ -1,5 +1,5 @@
-Anggota kelompok : Hafid Nurmajid
-                   Hafiyan sayidan
+Anggota kelompok : Hafid Nurmajid (4521210055)
+                   Hafiyan sayidan (
                    Muhammad irfan
 Nama website     : Member Kartu Aeon
 
