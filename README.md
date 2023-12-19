@@ -1,6 +1,6 @@
 Anggota kelompok : Hafid Nurmajid (4521210055)
-                   Hafiyan sayidan (
-                   Muhammad irfan
+                   Hafiyan sayidan (4521210074)
+                   Muhammad irfan (4521210086)
 Nama website     : Member Kartu Aeon
 
 Website ini menjelaskan tentang kartu member aeon, dimana memiliki 2 aktor yaitu user dan juga admin...
